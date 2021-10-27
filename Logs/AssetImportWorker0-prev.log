@@ -1,0 +1,1413 @@
+Unity Editor version:    2020.3.19f1 (68f137dc9bbe)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/tinh/My Freaking AR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61241
+Successfully changed project path to: /Users/tinh/My Freaking AR
+/Users/tinh/My Freaking AR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tinh/My Freaking AR/Assets
+GfxDevice: creating device client; threaded=0
+2021-10-10 01:38:31.865 Unity[74717:2212843] C27F591 preferred device: Intel Iris Pro Graphics (low power)
+2021-10-10 01:38:31.865 Unity[74717:2212843] Metal devices available: 1
+2021-10-10 01:38:31.865 Unity[74717:2212843] 0: Intel Iris Pro Graphics (low power)
+2021-10-10 01:38:31.865 Unity[74717:2212843] Using device Intel Iris Pro Graphics (low power)
+Initializing Metal device caps: Intel Iris Pro Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56717
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000670 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 59.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2822ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005335 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 64.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:102)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 102]
+
+UnityEngine.UnityException: Creating asset at path Assets/XR/Loaders/Magic Leap Loader.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in /Users/tinh/My Freaking AR/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:102 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeLoaderFromMetadata (System.String packageName, System.Collections.Generic.List`1[T] loaderMetadatas) [0x0004e] in /Users/tinh/My Freaking AR/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00001] in /Users/tinh/My Freaking AR/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in /Users/tinh/My Freaking AR/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in /Users/tinh/My Freaking AR/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in /Users/tinh/My Freaking AR/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:138)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 138)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.719 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1720ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1419ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (463ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (411ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.002491 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.003204 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 206.7 MB.
+
+Unloading 162 unused Assets to reduce memory usage. Loaded Objects now: 3033.
+Total: 5.800606 ms (FindLiveObjects: 0.512688 ms CreateObjectMapping: 0.292784 ms MarkObjects: 4.257515 ms  DeleteObjects: 0.736425 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/16_eye.fbx
+  artifactKey: Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/16_eye.fbx using Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb44b151697e3599e89c98dae58e804') in 1.063471 seconds 
+  Import took 1.070209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.626677 seconds.
+  path: Assets/16_eye.fbx
+  artifactKey: Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/16_eye.fbx using Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb2885a8dfd531f91268c0982b38fbb') in 0.026724 seconds 
+  Import took 0.031697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.532370 seconds.
+  path: Assets/16_eye.fbx
+  artifactKey: Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/16_eye.fbx using Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970a3bf772679203e36fa5abf12d1401') in 0.028659 seconds 
+  Import took 0.033562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.460670 seconds.
+  path: Assets/16_eye.fbx
+  artifactKey: Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/16_eye.fbx using Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e28a9593a9a7d2a2508418518446415') in 0.025594 seconds 
+  Import took 0.032118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Eye_material 1.mat
+  artifactKey: Guid(d69088d59dbb84d7d9d8370c989af928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eye_material 1.mat using Guid(d69088d59dbb84d7d9d8370c989af928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f1e7b0d9d624a0731cc1a6dd5b2911') in 0.376249 seconds 
+  Import took 0.380995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.788136 seconds.
+  path: Assets/16_eye.fbx
+  artifactKey: Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/16_eye.fbx using Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07da98bfde11ec33cc634f359a22f5b8') in 0.023852 seconds 
+  Import took 0.029179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.958116 seconds.
+  path: Assets/Materials/16_eye-Eye_material.mat
+  artifactKey: Guid(afd70e1cf3d734c0ebaec7b66c66d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/16_eye-Eye_material.mat using Guid(afd70e1cf3d734c0ebaec7b66c66d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1496eca219abede9e9bb3f2e5c9c175') in 0.009849 seconds 
+  Import took 0.015092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Materials/Goku Diorama-defaultMat.mat
+  artifactKey: Guid(f3d38aab70b0c4d5c8902a6b1702e267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Goku Diorama-defaultMat.mat using Guid(f3d38aab70b0c4d5c8902a6b1702e267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668a309868d7e9508fbd3b508ac00f3b') in 0.009095 seconds 
+  Import took 0.013339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Materials/HEAD 03 A-defaultMat.mat
+  artifactKey: Guid(bf2153da036694b9bbfdc9acb3f3a4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HEAD 03 A-defaultMat.mat using Guid(bf2153da036694b9bbfdc9acb3f3a4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ba19c81d9dc57b566735d0c1f9b546') in 0.012267 seconds 
+  Import took 0.017482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Materials/DBOkidgokuintoun.png
+  artifactKey: Guid(db041780da54e41a58f0e131b19b0c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DBOkidgokuintoun.png using Guid(db041780da54e41a58f0e131b19b0c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb365ef6569f03cd1c39551685edd1f1') in 0.883340 seconds 
+  Import took 0.889291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.405820 seconds.
+  path: Assets/16_eye.fbx
+  artifactKey: Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/16_eye.fbx using Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9ff4a19d88d0502533e5d582846c37') in 0.022047 seconds 
+  Import took 0.028506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.392044 seconds.
+  path: Assets/16_eye.fbx
+  artifactKey: Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/16_eye.fbx using Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4197da3d069727501aec6a3a09717a57') in 0.020907 seconds 
+  Import took 0.026128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.155765 seconds.
+  path: Assets/16_eye.fbx
+  artifactKey: Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/16_eye.fbx using Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097afd715b2f33127d56e79e2c62c395') in 0.019866 seconds 
+  Import took 0.025081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.201770 seconds.
+  path: Assets/16_eye.fbx
+  artifactKey: Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/16_eye.fbx using Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c142d038c69dadcef74c5e54c9dd4289') in 0.021504 seconds 
+  Import took 0.026892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.512449 seconds.
+  path: Assets/eye
+  artifactKey: Guid(78fa211235d30490ca611deefdc3252b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye using Guid(78fa211235d30490ca611deefdc3252b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f677cbdf7da14aad05ba899d9c2c14ae') in 0.001159 seconds 
+  Import took 0.007127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.600526 seconds.
+  path: Assets/eye/source
+  artifactKey: Guid(635524fc6e4974642877a40cd0013cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source using Guid(635524fc6e4974642877a40cd0013cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadb2e304a6c0caf9907ccf00b43b75b') in 0.008591 seconds 
+  Import took 0.013984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033416 seconds.
+  path: Assets/eye/source/23e26d5215be4e208bc4caf0e1c3cc8d.obj.obj
+  artifactKey: Guid(ab1ff341a6f85411db940eff3e7c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source/23e26d5215be4e208bc4caf0e1c3cc8d.obj.obj using Guid(ab1ff341a6f85411db940eff3e7c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71487504141ef69ffd4b14d7286fbce6') in 1.351936 seconds 
+  Import took 1.357651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.813667 seconds.
+  path: Assets/eye/source/23e26d5215be4e208bc4caf0e1c3cc8d.obj.obj
+  artifactKey: Guid(ab1ff341a6f85411db940eff3e7c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source/23e26d5215be4e208bc4caf0e1c3cc8d.obj.obj using Guid(ab1ff341a6f85411db940eff3e7c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790f36a5d64b224ef31614d51f456902') in 0.045193 seconds 
+  Import took 0.050796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/eye/source/Sphere001Mat.mat
+  artifactKey: Guid(23d952b0a81794b218f98275f981019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source/Sphere001Mat.mat using Guid(23d952b0a81794b218f98275f981019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72d6d5659d18b395a171dfa0e234104') in 0.013486 seconds 
+  Import took 0.017835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/eye/source/Sphere002Mat.mat
+  artifactKey: Guid(71c1f6b97fb0249f9963f29895e121be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source/Sphere002Mat.mat using Guid(71c1f6b97fb0249f9963f29895e121be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d59d292cb7531d0cbe5cdb62c0279a') in 0.014932 seconds 
+  Import took 0.020706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.513214 seconds.
+  path: Assets/eye/textures/eyeTextureNew2.jpg
+  artifactKey: Guid(158e52697eb6f4b1dac8d03a61bbb73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/textures/eyeTextureNew2.jpg using Guid(158e52697eb6f4b1dac8d03a61bbb73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7990876edcbedeb4ad9bff677765a44f') in 1.192375 seconds 
+  Import took 1.197522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.688379 seconds.
+  path: Assets/Anna_FBX/Anna_FBX.FBX
+  artifactKey: Guid(ba13f32923a8e4554bfc69ea2ab61bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anna_FBX/Anna_FBX.FBX using Guid(ba13f32923a8e4554bfc69ea2ab61bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fbcc12e5a38fdbcc66cdcb4319960e') in 0.581975 seconds 
+  Import took 0.588304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.148024 seconds.
+  path: Assets/Anna_FBX/Anna_FBX_2.FBX
+  artifactKey: Guid(2342c09a7d43a40edabb9c3185d92264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anna_FBX/Anna_FBX_2.FBX using Guid(2342c09a7d43a40edabb9c3185d92264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895cd3b09d767474f13ee27cf707c2c2') in 0.171726 seconds 
+  Import took 0.177509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.009057 seconds.
+  path: Assets/eye/source/23e26d5215be4e208bc4caf0e1c3cc8d.obj.obj
+  artifactKey: Guid(ab1ff341a6f85411db940eff3e7c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source/23e26d5215be4e208bc4caf0e1c3cc8d.obj.obj using Guid(ab1ff341a6f85411db940eff3e7c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026488ebd64ef6c7bde129ee4fa810f6') in 0.043008 seconds 
+  Import took 0.048701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.984548 seconds.
+  path: Assets/eye/source/Materials
+  artifactKey: Guid(1d9f712ebab2a48bbb31220746ec7979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source/Materials using Guid(1d9f712ebab2a48bbb31220746ec7979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b633b57ac75d5bb7b4371bcd193f4d5') in 0.009570 seconds 
+  Import took 0.014892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030310 seconds.
+  path: Assets/eye/source/Materials/23e26d5215be4e208bc4caf0e1c3cc8d.obj-Sphere001Mat.mat
+  artifactKey: Guid(68135d524bcdf4909ae97f6239a75703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source/Materials/23e26d5215be4e208bc4caf0e1c3cc8d.obj-Sphere001Mat.mat using Guid(68135d524bcdf4909ae97f6239a75703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be864e211979fdaf6d5ca1a3fd234b2') in 0.014064 seconds 
+  Import took 0.018826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/eye/source/Materials/23e26d5215be4e208bc4caf0e1c3cc8d.obj-Sphere002Mat.mat
+  artifactKey: Guid(be3b3310157574864920669a40cf0950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source/Materials/23e26d5215be4e208bc4caf0e1c3cc8d.obj-Sphere002Mat.mat using Guid(be3b3310157574864920669a40cf0950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac51aecdfb37c58027b14f71bce89a2') in 0.013978 seconds 
+  Import took 0.018385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.228416 seconds.
+  path: Assets/textures/DBOkidgoku.png
+  artifactKey: Guid(e435dd590432842e597d838efc9881d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/DBOkidgoku.png using Guid(e435dd590432842e597d838efc9881d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0a84e9bf4a8784888a3298df5bd631') in 0.040734 seconds 
+  Import took 0.046094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/textures/DBOkidgoku2.png
+  artifactKey: Guid(309a8b04a84dd4fba9f5f99a80e929d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/DBOkidgoku2.png using Guid(309a8b04a84dd4fba9f5f99a80e929d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23e5d766f8a86764b0188ad94044d87') in 0.029609 seconds 
+  Import took 0.033363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/textures/DBOkidgoku3.png
+  artifactKey: Guid(73af541ac8bba4f6daaddd607762dba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/DBOkidgoku3.png using Guid(73af541ac8bba4f6daaddd607762dba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396e7345d5326baf738df0546edcf7da') in 0.030725 seconds 
+  Import took 0.035860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/textures/DBOkidgokuintoun.png
+  artifactKey: Guid(97be3ac30de324330b5a5d50d1a8e0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/DBOkidgokuintoun.png using Guid(97be3ac30de324330b5a5d50d1a8e0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73ad6309ded31a5bd061bfb10d2c634') in 0.016683 seconds 
+  Import took 0.021597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.033415 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png
+  artifactKey: Guid(a36153625af524c1f9fb6e04b5ed3e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png using Guid(a36153625af524c1f9fb6e04b5ed3e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f840aaa0c1423ddca230151aaba1895') in 0.012142 seconds 
+  Import took 0.017103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/textures 1/DBOkidgoku.png
+  artifactKey: Guid(9c041b299724e4a03a4f02a7ff83f864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures 1/DBOkidgoku.png using Guid(9c041b299724e4a03a4f02a7ff83f864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db674a65369dc661bcdb718b70384159') in 0.030277 seconds 
+  Import took 0.035237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.595051 seconds.
+  path: Assets/zophrac (1)/textures/eye_diff.png
+  artifactKey: Guid(db230445945984d55aed7a9a944bbfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zophrac (1)/textures/eye_diff.png using Guid(db230445945984d55aed7a9a944bbfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40366dc51ce503bc1fdedd2002c16938') in 0.029090 seconds 
+  Import took 0.034641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/zophrac (1)/textures/Eye_normal.png
+  artifactKey: Guid(a579efdadb0c141c3a41f991c4963d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zophrac (1)/textures/Eye_normal.png using Guid(a579efdadb0c141c3a41f991c4963d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d7262f1f8d9e592b4d4c7a6440db44') in 0.029117 seconds 
+  Import took 0.033647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/zophrac (1)/textures/eye_glossy.png
+  artifactKey: Guid(619523a77c3d14ae7b791a15ab38bd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zophrac (1)/textures/eye_glossy.png using Guid(619523a77c3d14ae7b791a15ab38bd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab35d3dc03846851682ea937b08644e') in 0.030285 seconds 
+  Import took 0.035285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.362685 seconds.
+  path: Assets/Prefabs/GokuGT_MAX31/GokuHead.jpg
+  artifactKey: Guid(60c81ca391adc4ed2b61020035af8d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GokuGT_MAX31/GokuHead.jpg using Guid(60c81ca391adc4ed2b61020035af8d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c0e438e90368ac0513cc949b45e24b') in 0.089322 seconds 
+  Import took 0.094787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.609695 seconds.
+  path: Assets/eye/source/23e26d5215be4e208bc4caf0e1c3cc8d.obj.obj
+  artifactKey: Guid(ab1ff341a6f85411db940eff3e7c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source/23e26d5215be4e208bc4caf0e1c3cc8d.obj.obj using Guid(ab1ff341a6f85411db940eff3e7c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3150aa8002c1e472d452a16e34a5cc') in 0.047559 seconds 
+  Import took 0.052835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.958717 seconds.
+  path: Assets/zophrac (1)/textures/head_ao.png
+  artifactKey: Guid(09182c630554443b7ba4ed8e3125dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zophrac (1)/textures/head_ao.png using Guid(09182c630554443b7ba4ed8e3125dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988363742659792fc9fb455a1a049df6') in 0.291727 seconds 
+  Import took 0.297367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/zophrac (1)/textures/head_diffuse.png
+  artifactKey: Guid(69406c4df8c7040508a8e7da0a27a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zophrac (1)/textures/head_diffuse.png using Guid(69406c4df8c7040508a8e7da0a27a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb82cc301a0477c4442f08a0491f71c') in 0.301859 seconds 
+  Import took 0.307047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/ExampleAssets/Textures/PlanePatternDot.png
+  artifactKey: Guid(af6bcea09b8134831b6599e2900aef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/PlanePatternDot.png using Guid(af6bcea09b8134831b6599e2900aef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081e8166131dbdb1d2684ca28144bb4d') in 0.030276 seconds 
+  Import took 0.035438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/zophrac (1)/textures/head_spec.png
+  artifactKey: Guid(498b08e1228c540f9b77213b0778f11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zophrac (1)/textures/head_spec.png using Guid(498b08e1228c540f9b77213b0778f11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdeffbd885d3660aa8253c78cd251003') in 0.292791 seconds 
+  Import took 0.297647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/zophrac (1)/textures/head_normal.png
+  artifactKey: Guid(55ba6584708b4422fab1a54556bacb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zophrac (1)/textures/head_normal.png using Guid(55ba6584708b4422fab1a54556bacb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0093840bb0b70fa7b2600f9a2be25d4') in 0.299807 seconds 
+  Import took 0.304953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.706919 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images/project-header-ar.png
+  artifactKey: Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images/project-header-ar.png using Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00c6075559fceca77178e4db84a509a') in 0.012179 seconds 
+  Import took 0.017324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.413989 seconds.
+  path: Assets/zophrac (1)/textures/teeth_ao.png
+  artifactKey: Guid(cd347bf177da74053a45b716f2d4341a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zophrac (1)/textures/teeth_ao.png using Guid(cd347bf177da74053a45b716f2d4341a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d024e59592f3b8ffe20e3da360c227') in 0.088896 seconds 
+  Import took 0.094473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.504745 seconds.
+  path: Assets/ExampleAssets/Models/cube.fbx
+  artifactKey: Guid(de4da3906a001624fabcc7838ddf2eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/cube.fbx using Guid(de4da3906a001624fabcc7838ddf2eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2da467fb223bfa5f103d4e05caec34b') in 0.034656 seconds 
+  Import took 0.040561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.905579 seconds.
+  path: Assets/materials1/Eye_material.mat
+  artifactKey: Guid(fa3362ef1c46f4ff58b083c245d025f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials1/Eye_material.mat using Guid(fa3362ef1c46f4ff58b083c245d025f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371e2160b8db21df558fa9ce526e6af5') in 0.019707 seconds 
+  Import took 0.025554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Materials/Eye_material.mat
+  artifactKey: Guid(b980536645284415dac78bd7a7d1da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Eye_material.mat using Guid(b980536645284415dac78bd7a7d1da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba578f91c08a34cbba7882ebf1911549') in 0.011455 seconds 
+  Import took 0.016061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.132484 seconds.
+  path: Assets/eye/source/23e26d5215be4e208bc4caf0e1c3cc8d.obj.obj
+  artifactKey: Guid(ab1ff341a6f85411db940eff3e7c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eye/source/23e26d5215be4e208bc4caf0e1c3cc8d.obj.obj using Guid(ab1ff341a6f85411db940eff3e7c2cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be4b41acb8e042edd84b2e9126f7c29') in 0.041046 seconds 
+  Import took 0.046631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 247.261257 seconds.
+  path: Assets/16_eye.fbx
+  artifactKey: Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/16_eye.fbx using Guid(eeff48d916fcd41508695f6f8ba20a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b73c5b007c7809c3413bddec0a9a714') in 0.021864 seconds 
+  Import took 0.028396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.676268 seconds.
+  path: Assets/Prefabs/16_eye 2.prefab
+  artifactKey: Guid(9befdd9bac133494fa215da026eb7667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/16_eye 2.prefab using Guid(9befdd9bac133494fa215da026eb7667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b952960e387067e9d63e15811b3e26b9') in 0.218372 seconds 
+  Import took 0.224118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.805517 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(c0ae4db92a6a14dcb82529e1e255ec8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(c0ae4db92a6a14dcb82529e1e255ec8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d7c4301fb2aeb18b305062f0bf9ed0') in 0.008823 seconds 
+  Import took 0.013837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.719900 seconds.
+  path: Assets/Prefabs/AREye.prefab
+  artifactKey: Guid(572c3f68d550d40d6b765d4aee831cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AREye.prefab using Guid(572c3f68d550d40d6b765d4aee831cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931e9305b6b4353bd7491dfbf78716e4') in 0.014995 seconds 
+  Import took 0.021344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 647.653973 seconds.
+  path: Assets/AREyeManager.cs
+  artifactKey: Guid(37b58156de12948fbb81e955a996add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AREyeManager.cs using Guid(37b58156de12948fbb81e955a996add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e1eb621f721b6a9a3ef314f0cb6dcc') in 2.398259 seconds 
+  Import took 2.403577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.321814 seconds.
+  path: Assets/source
+  artifactKey: Guid(5fb1f1e9f053d4c3683138e7d38cb91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source using Guid(5fb1f1e9f053d4c3683138e7d38cb91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13cfa5ae2e6283230a460127d1fa753') in 0.001097 seconds 
+  Import took 0.007103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049051 seconds.
+  path: Assets/source/Goku Diorama.obj
+  artifactKey: Guid(d8fe46bf7c865444681cb27ba5f4e2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/Goku Diorama.obj using Guid(d8fe46bf7c865444681cb27ba5f4e2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430a7acc162c7c75ab7e52ddea4aef18') in 0.028354 seconds 
+  Import took 0.033774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.047062 seconds.
+  path: Packages/com.unity.xr.windowsmr/Tests/Runtime/Resources/Prefabs/_PlaneThatCallsIntoPlugin.prefab
+  artifactKey: Guid(85ea1d20ed9be084cae6ddda8aa1fd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.windowsmr/Tests/Runtime/Resources/Prefabs/_PlaneThatCallsIntoPlugin.prefab using Guid(85ea1d20ed9be084cae6ddda8aa1fd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58edd9e64fa6be8c5b4a186bab7b8222') in 0.204331 seconds 
+  Import took 0.209632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Packages/com.unity.learn.iet-framework/Tests/Editor/TestPrefab2.prefab
+  artifactKey: Guid(a8c38beafbe4c408d97dfd6e0f781dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Tests/Editor/TestPrefab2.prefab using Guid(a8c38beafbe4c408d97dfd6e0f781dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072036dc9a90b8b195d32b8064dc7be3') in 0.007765 seconds 
+  Import took 0.011653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ExampleAssets/Prefabs/EyeLeft.prefab
+  artifactKey: Guid(c7d18faf627484b50a76449c5b6c0008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/EyeLeft.prefab using Guid(c7d18faf627484b50a76449c5b6c0008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd028116aafb7a46217e23cd946e366') in 0.014939 seconds 
+  Import took 0.019596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/ExampleAssets/Prefabs/CubeObject.prefab
+  artifactKey: Guid(fe573e7abb8af466791f07600c0785e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/CubeObject.prefab using Guid(fe573e7abb8af466791f07600c0785e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c780be8c8993cae1e3726ff1015bade') in 0.015487 seconds 
+  Import took 0.022187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Packages/com.unity.xr.windowsmr/Tests/Runtime/Resources/Prefabs/Spotlight.prefab
+  artifactKey: Guid(117f4739890f0e045bc9c74579666af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.windowsmr/Tests/Runtime/Resources/Prefabs/Spotlight.prefab using Guid(117f4739890f0e045bc9c74579666af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f5f495e3f146a56035ffdf51374e9d') in 0.007914 seconds 
+  Import took 0.014179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/ExampleAssets/Prefabs/ARPlane.prefab
+  artifactKey: Guid(3738bd65ede154463b2c35064b9e5fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/ARPlane.prefab using Guid(3738bd65ede154463b2c35064b9e5fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1238dd9c2fea6e11daeb223bcf7aec0') in 0.009642 seconds 
+  Import took 0.014900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Packages/com.unity.learn.iet-framework/Tests/Editor/TestPrefab1.prefab
+  artifactKey: Guid(e094db015e58a40a482cc8d30e011d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Tests/Editor/TestPrefab1.prefab using Guid(e094db015e58a40a482cc8d30e011d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e644f07ab962733848567c65ff1756') in 0.007195 seconds 
+  Import took 0.012178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Packages/com.unity.xr.windowsmr/Tests/Editor/Resources/TestSetup/TrackingRig.prefab
+  artifactKey: Guid(bfb344fc6a1d48f428b8b8b0cfbec384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.windowsmr/Tests/Editor/Resources/TestSetup/TrackingRig.prefab using Guid(bfb344fc6a1d48f428b8b8b0cfbec384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f343b05a08de1d84529c54ebd0bdc92') in 0.016055 seconds 
+  Import took 0.021377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Packages/com.unity.xr.windowsmr/Tests/Runtime/Resources/TestSetup/TrackingRig.prefab
+  artifactKey: Guid(e22e7efee38cd45468cf4adb9c14f665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.windowsmr/Tests/Runtime/Resources/TestSetup/TrackingRig.prefab using Guid(e22e7efee38cd45468cf4adb9c14f665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103818ed609303cad6d040b6e6ade472') in 0.014815 seconds 
+  Import took 0.020453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Packages/com.unity.xr.windowsmr/Tests/Runtime/Resources/Prefabs/Sphere.prefab
+  artifactKey: Guid(1fa583daffdf0834faf3792f4a8d80ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.windowsmr/Tests/Runtime/Resources/Prefabs/Sphere.prefab using Guid(1fa583daffdf0834faf3792f4a8d80ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4252a16746dc90061da6bebe5523111c') in 0.014068 seconds 
+  Import took 0.019382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/ExampleAssets/Prefabs/EyeRight.prefab
+  artifactKey: Guid(e41657bd19b6f4820a9fb80480a76f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/EyeRight.prefab using Guid(e41657bd19b6f4820a9fb80480a76f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb5be0c9487e99114be3a0254e52397') in 0.011934 seconds 
+  Import took 0.018018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001039 seconds.
+  path: Assets/ExampleAssets/Prefabs/EyeTracking.prefab
+  artifactKey: Guid(9591b1790c8a348dd83d41620124d909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/EyeTracking.prefab using Guid(9591b1790c8a348dd83d41620124d909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e5a84ef34ddbb96b0f8e12cfbe20d9') in 0.008408 seconds 
+  Import took 0.013864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0993ac88694dc4088532330439dbe4') in 0.011925 seconds 
+  Import took 0.017366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8253.453843 seconds.
+  path: Assets/AREyeManager.cs
+  artifactKey: Guid(37b58156de12948fbb81e955a996add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AREyeManager.cs using Guid(37b58156de12948fbb81e955a996add4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f04eae2c3a5b6ac31221dd6dbd8f17f') in 0.005082 seconds 
+  Import took 0.011274 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.704 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1705ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (1412ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (494ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2516 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.2 MB.
+System memory in use after: 239.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3088.
+Total: 5.207289 ms (FindLiveObjects: 0.416696 ms CreateObjectMapping: 0.257707 ms MarkObjects: 4.471469 ms  DeleteObjects: 0.060203 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 917.020225 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6c5e644bceaa0ca929226bf50e42e9') in 0.719190 seconds 
+  Import took 0.727284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.499724 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2ce7f01150b04454aaf6e1ad1c9153') in 0.615854 seconds 
+  Import took 0.622998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.401690 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0c29b21e83f538e9bdcd5ecd374ab6') in 0.598705 seconds 
+  Import took 0.606667 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 191.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3089.
+Total: 5.494796 ms (FindLiveObjects: 0.406267 ms CreateObjectMapping: 0.105951 ms MarkObjects: 4.936288 ms  DeleteObjects: 0.045250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 247.814056 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3c84a208ed2cb328bb779f2c626522') in 0.704959 seconds 
+  Import took 0.713712 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 191.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3089.
+Total: 5.639465 ms (FindLiveObjects: 0.398211 ms CreateObjectMapping: 0.145847 ms MarkObjects: 5.052194 ms  DeleteObjects: 0.042426 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 191.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3089.
+Total: 5.928388 ms (FindLiveObjects: 0.332752 ms CreateObjectMapping: 0.127117 ms MarkObjects: 5.409316 ms  DeleteObjects: 0.057845 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 221.743634 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caed828118ab53147286f5823bfd2c16') in 0.624368 seconds 
+  Import took 0.633159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.155838 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc6795dd91de00caaafed98dffb26b6') in 0.651355 seconds 
+  Import took 0.662852 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 191.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3089.
+Total: 5.615505 ms (FindLiveObjects: 0.396125 ms CreateObjectMapping: 0.113005 ms MarkObjects: 5.061983 ms  DeleteObjects: 0.043413 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.746755 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9c3183a8db2cea29896bddb9acc199') in 0.629459 seconds 
+  Import took 0.637405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.369032 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8078daf378890dbc9106d5f0af372c5') in 0.611711 seconds 
+  Import took 0.620024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.492461 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f85fd84cd4364e49d0a304a7724311') in 0.589978 seconds 
+  Import took 0.597161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.438115 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16b1d64b031a0613af8241d5b43f5a2') in 0.585047 seconds 
+  Import took 0.594288 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 191.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3089.
+Total: 5.880083 ms (FindLiveObjects: 0.455672 ms CreateObjectMapping: 0.116411 ms MarkObjects: 5.261311 ms  DeleteObjects: 0.045381 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101.402860 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c023b8a19980e2fb20f03b00bf771c2b') in 0.592218 seconds 
+  Import took 0.601783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.754146 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9122c9b8457485975a457c14ecd24fd0') in 0.622466 seconds 
+  Import took 0.630350 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 191.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3089.
+Total: 6.098348 ms (FindLiveObjects: 0.390031 ms CreateObjectMapping: 0.112052 ms MarkObjects: 5.521063 ms  DeleteObjects: 0.073848 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 112.531323 seconds.
+  path: Assets/Prefabs/Gunan_animated.prefab
+  artifactKey: Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gunan_animated.prefab using Guid(5985c26517cf847d6a1238f45f8ad106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c32c4dd619d78dae38299f37ddb455e') in 0.614161 seconds 
+  Import took 0.624700 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.3 MB.
+System memory in use after: 191.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3089.
+Total: 5.154053 ms (FindLiveObjects: 0.387485 ms CreateObjectMapping: 0.112180 ms MarkObjects: 4.599532 ms  DeleteObjects: 0.053795 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 728.926960 seconds.
+  path: Assets/ExampleAssets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09111def3e06bb8f6d94bb8872bf016d') in 0.003678 seconds 
+  Import took 0.012216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.227902 seconds.
+  path: Assets/ExampleAssets/Scenes/scene.usdc
+  artifactKey: Guid(dd036c5c37ed94fcdaf77db86487555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Scenes/scene.usdc using Guid(dd036c5c37ed94fcdaf77db86487555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a9545c12e1768de8a1a5e0f486591b') in 0.886898 seconds 
+  Import took 0.894729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.413085 seconds.
+  path: Assets/Eye_material 1.mat
+  artifactKey: Guid(d69088d59dbb84d7d9d8370c989af928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Eye_material 1.mat using Guid(d69088d59dbb84d7d9d8370c989af928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336f5bc1837de29a56229d68da709d17') in 0.364196 seconds 
+  Import took 0.370579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.728034 seconds.
+  path: Assets/Sloth Example
+  artifactKey: Guid(d894451ddbfc84fdaafafe2ca5509fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sloth Example using Guid(d894451ddbfc84fdaafafe2ca5509fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef972a5cb07c8d09976e969ccae99098') in 0.008185 seconds 
+  Import took 0.014006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.860606 seconds.
+  path: Assets/Sloth Example 1
+  artifactKey: Guid(8197b30c5d12b4df2985b279ef9c5736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sloth Example 1 using Guid(8197b30c5d12b4df2985b279ef9c5736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dcbb4ae60523c0e448b6cefa6d6859') in 0.010652 seconds 
+  Import took 0.017067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.085602 seconds.
+  path: Assets/Sloth Example/SlothCharacter
+  artifactKey: Guid(dbd656aa75a1c664d8c595f1733a98aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sloth Example/SlothCharacter using Guid(dbd656aa75a1c664d8c595f1733a98aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab799e554aa7119499a554b0f5687908') in 0.009002 seconds 
+  Import took 0.014382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038325 seconds.
+  path: Assets/Sloth Example/SlothCharacter/sloth_head_blendshapes.prefab
+  artifactKey: Guid(f52b9039400198449907ac105acc8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sloth Example/SlothCharacter/sloth_head_blendshapes.prefab using Guid(f52b9039400198449907ac105acc8616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4172a08de5e05d12c8a490973c107a8c') in 0.005795 seconds 
+  Import took 0.012003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.018305 seconds.
+  path: Assets/Sloth Example/Scenes
+  artifactKey: Guid(077b8cffba6db074bb5ed3b60be95039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sloth Example/Scenes using Guid(077b8cffba6db074bb5ed3b60be95039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c56103b456f11f319009986a11ff41b') in 0.009171 seconds 
+  Import took 0.015440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.736494 seconds.
+  path: Assets/Sloth Example/Scenes/SlothBlendShapes.unity
+  artifactKey: Guid(647c057ead5854246be7955fbc3022c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sloth Example/Scenes/SlothBlendShapes.unity using Guid(647c057ead5854246be7955fbc3022c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5db12b2253b4feece1c5932e1b209a') in 0.010058 seconds 
+  Import took 0.015705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1232.138776 seconds.
+  path: Assets/facial-ar-remote
+  artifactKey: Guid(23d943accae0b4056b4f717758895013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/facial-ar-remote using Guid(23d943accae0b4056b4f717758895013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82141166ca600b6c03f3156c6c27fa9c') in 0.009755 seconds 
+  Import took 0.016457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 327.776265 seconds.
+  path: Assets/facial-ar-remote-main 2
+  artifactKey: Guid(9ed4c6acf4d734c96801ef393a156ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/facial-ar-remote-main 2 using Guid(9ed4c6acf4d734c96801ef393a156ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f8699d4ddd0f7a4fc7eafe394e4aa9') in 0.003292 seconds 
+  Import took 0.010511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.340161 seconds.
+  path: Assets/facial-ar-remote-main 2/Editor
+  artifactKey: Guid(16a0989f44dbe4274aeb18c4eebba515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/facial-ar-remote-main 2/Editor using Guid(16a0989f44dbe4274aeb18c4eebba515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae68eab1ec91937a1dcb7547fdcc673') in 0.001419 seconds 
+  Import took 0.008391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058766 seconds.
+  path: Assets/facial-ar-remote-main 2/Editor/Unity.FacialARRemote.Editor.asmdef
+  artifactKey: Guid(1d6b001f771c74cea8542e0b1df9f610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/facial-ar-remote-main 2/Editor/Unity.FacialARRemote.Editor.asmdef using Guid(1d6b001f771c74cea8542e0b1df9f610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a80c44e8a0da4b6ef78dbc3e8199cd2') in 0.417194 seconds 
+  Import took 0.425045 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:28)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:134)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1831ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (1478ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (525ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (519ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2542 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.5 MB.
+System memory in use after: 249.2 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3117.
+Total: 6.086270 ms (FindLiveObjects: 0.467896 ms CreateObjectMapping: 0.317724 ms MarkObjects: 4.708136 ms  DeleteObjects: 0.590911 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1073.690161 seconds.
+  path: Assets/Gunan.prefab
+  artifactKey: Guid(e405e67d8ee704d32899cc7bb2040ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gunan.prefab using Guid(e405e67d8ee704d32899cc7bb2040ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f34088fdb345520d4eb7b13fd7f169') in 0.040131 seconds 
+  Import took 0.046023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/GunanWithEyesV2.prefab
+  artifactKey: Guid(52f0e7f3fa64d4f1c94ab596c5fbe95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GunanWithEyesV2.prefab using Guid(52f0e7f3fa64d4f1c94ab596c5fbe95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419207f94321e3404fb012e73b3ea5e2') in 0.008788 seconds 
+  Import took 0.013830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/GunanWithEyes.prefab
+  artifactKey: Guid(1ac88b856b1f648a981956ee9425606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GunanWithEyes.prefab using Guid(1ac88b856b1f648a981956ee9425606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ff3e2764a61530544b2c3653e12ba4') in 0.007258 seconds 
+  Import took 0.013431 seconds .
+

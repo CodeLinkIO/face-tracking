@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.FacialARRemote", "Unity.FacialARRemote.csproj", "{B6097B61-4E4B-D25B-0116-4E3E4BB87D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C9DBC815-A1B2-A52D-A186-1A26E59DA129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.FacialARRemote.Editor", "Unity.FacialARRemote.Editor.csproj", "{FBA4B9CB-9E22-215E-67B1-320AE5AD6F5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6097B61-4E4B-D25B-0116-4E3E4BB87D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6097B61-4E4B-D25B-0116-4E3E4BB87D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6097B61-4E4B-D25B-0116-4E3E4BB87D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6097B61-4E4B-D25B-0116-4E3E4BB87D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DBC815-A1B2-A52D-A186-1A26E59DA129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DBC815-A1B2-A52D-A186-1A26E59DA129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DBC815-A1B2-A52D-A186-1A26E59DA129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DBC815-A1B2-A52D-A186-1A26E59DA129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA4B9CB-9E22-215E-67B1-320AE5AD6F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA4B9CB-9E22-215E-67B1-320AE5AD6F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA4B9CB-9E22-215E-67B1-320AE5AD6F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA4B9CB-9E22-215E-67B1-320AE5AD6F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

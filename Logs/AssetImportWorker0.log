@@ -200,3 +200,11 @@ Received Import Request.
 Start importing Assets/Materials/16_eye-Eye_material.mat using Guid(afd70e1cf3d734c0ebaec7b66c66d0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f26f8a5bd77826de940e20485c22e3') in 1.427086 seconds 
   Import took 1.431868 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 3495.760828 seconds.
+  path: Assets/HEAD 03 A.mtl
+  artifactKey: Guid(091e9ca26bb2c4c1886724a63a4af2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HEAD 03 A.mtl using Guid(091e9ca26bb2c4c1886724a63a4af2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f2a350011f5cd9eb013a084986f9e3') in 0.467161 seconds 
+  Import took 0.473123 seconds .
+
